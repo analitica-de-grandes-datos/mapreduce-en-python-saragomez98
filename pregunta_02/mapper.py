@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     for line in sys.stdin:
         lista = line.split(',')
-        sys.stdout.write("{}\t1{}\n".format(lista[3],lista[4]))
+        sys.stdout.write("{}\t{}\n".format(lista[3],lista[4]))
